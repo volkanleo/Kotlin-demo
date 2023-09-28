@@ -1,6 +1,6 @@
 
 
-class Account(contractId: String?) {
+class Account() {
     var acc_no: Int = 0
     var name: String = ""
     var amount: Float = 0.toFloat()

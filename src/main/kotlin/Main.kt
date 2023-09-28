@@ -1,7 +1,7 @@
 
 
 fun main() {
-    Account(null)
-    val acc = Account(null)
+
+    val acc = Account()
     println(acc.contractId.isNullOrBlank())
 }
