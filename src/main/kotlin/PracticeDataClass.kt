@@ -30,3 +30,5 @@ enum class Colors(val timesUsed: Int) {
     BLUE(500),
     YELLOW(40),
 }
+
+
