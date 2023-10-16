@@ -44,7 +44,6 @@ fun printLengths(list: List<Any>) {
     }
 }
 
-
 val mixedList = listOf(1, "two", 3, "four")
 val strings = mixedList.filterIsInstance<String>() // Returns a list of strings
 
@@ -60,8 +59,7 @@ interface Producer<out T> {
     fun produce(): T
 }
 
-
 fun <T> findFirstMatching(list: List<T>, condition: (T) -> Boolean): T?
-        where T : Comparable<T>, T : Number {
+    where T : Comparable<T>, T : Number {
     return list.firstOrNull { condition(it) }
 }
